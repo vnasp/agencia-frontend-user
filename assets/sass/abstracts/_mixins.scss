@@ -1,0 +1,21 @@
+@mixin box($color, $width, $height) {
+  background-color: $color;
+  width: $width;
+  height: $height;
+}
+
+@mixin box_posicion($bottom, $left, $zIndex: 1) {
+  position: absolute;
+  bottom: $bottom;
+  left: $left;
+  z-index: $zIndex;
+}
+
+@mixin box_image($imageUrl, $width: 100%, $height: 300px) {
+  background-image: url($imageUrl);
+  background-size: cover;
+  background-position: center;
+  width: $width;
+  height: $height;
+  position: relative;
+}

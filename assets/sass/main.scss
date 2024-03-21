@@ -1,0 +1,28 @@
+// Abstracts
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// Bases
+@import "base/general";
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/logos";
+@import "components/testimonios";
+@import "components/destacados";
+
+// Layout
+@import "layout/body";
+@import "layout/header";
+@import "layout/main";
+
+// Pages
+@import "pages/home";
+
+// Themes
+@import "themes/theme";
+
+// Vendors
+@import "../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,17 @@
+.main {
+
+  &__hero {
+    background-image: url("../img/developer.svg");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+  }
+
+  &__proyectos {
+    height: 40px;
+  }
+
+  &__proyectos--titulo {
+    width: 75%;
+  }
+}

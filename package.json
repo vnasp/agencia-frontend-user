@@ -1,0 +1,14 @@
+{
+  "name": "prueba_viajes-chile",
+  "version": "1.0.0",
+  "description": "Portal Viajes Chile",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },
+  "author": "Valentina Muñoz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

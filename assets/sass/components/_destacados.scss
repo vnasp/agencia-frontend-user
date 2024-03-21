@@ -1,0 +1,10 @@
+.destacados {
+  &__container {
+    height: auto;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
