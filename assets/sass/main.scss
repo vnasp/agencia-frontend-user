@@ -11,15 +11,15 @@
 @import "base/reset";
 @import "base/typography";
 
-// Components
-@import "components/logos";
-@import "components/testimonios";
-@import "components/destacados";
-
 // Layout
 @import "layout/body";
 @import "layout/header";
 @import "layout/main";
+
+// Components
+@import "components/logos";
+@import "components/testimonios";
+@import "components/destacados";
 
 // Pages
 @import "pages/home";
