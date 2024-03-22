@@ -3,6 +3,9 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+// Vendors
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 // Bases
 @import "base/general";
 @import "base/reset";
@@ -23,6 +26,3 @@
 
 // Themes
 @import "themes/theme";
-
-// Vendors
-@import "../../node_modules/bootstrap/scss/bootstrap";
