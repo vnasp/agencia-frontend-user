@@ -1,12 +1,7 @@
 .header {
-
+color:white !important;
   &__carousel-img {
-    height: 300px;
     width: 100vw;
     object-fit: cover;
-
-    @media (min-width: 768px) {
-      height: 500px;
-    }
   }
 }
